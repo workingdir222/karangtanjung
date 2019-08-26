@@ -1,0 +1,314 @@
+/*Whubs.com - Download Free Responsive Website Layout Templates designed on HTML5 CSS3,
+Bootstrap which are 100% Mobile friendly. w3Hubs all Layouts are responsive cross 
+browser supported, best quality world class designs.*/
+@import url('https://fonts.googleapis.com/css?family=Allerta+Stencil&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Gabriela&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Jura&display=swap');
+@import url("./fontawesome/css/all.min.css");
+body {
+    font-family: 'Jura', sans-serif;
+}
+h2 {
+    font-family: 'Gabriela', serif;
+}
+#top{
+    background-color: #053775;
+    padding: 5px;
+    z-index: 10;
+    position: relative;
+}
+#top ul{
+    padding: 0;
+    margin: 0;
+}
+#top ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 2px;
+    font-weight: 700;
+}
+#top li i{
+    font-size: 18px;
+    letter-spacing: 3px;
+    padding: 5px 15px;
+    color: #000;
+
+}
+#top li i:hover{
+    color: #DC7633;
+}
+#left{
+    padding-left: 20px;
+}
+.navbar{
+    width: 100%;
+}
+.navbar-brand span {
+    color: #fed136;
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    font-family: 'Allerta Stencil', sans-serif;
+}
+
+.entry-title {
+    margin-top: 0
+}
+
+.navbar-brand {
+    color: #000;
+    font-size: 25px;
+    font-family: 'Allerta Stencil', sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    position: fixed;
+    top: 0;
+    background-color: #053775;
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 0 0 70px 70px;
+    z-index: 9;
+}
+
+.navbar-brand-img {
+    height: 165px;
+    padding: 40px 15px 15px 15px;
+}
+.remove-pt {
+    height: 140px !important;
+    padding: 15px 15px 15px 15px !important;
+}
+
+.navbar-nav .nav-item .nav-link {
+    padding: .4em 1em !important;
+    font-size: 120%;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #fff;
+    font-family: 'Allerta Stencil', sans-serif;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: #333;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #DC7633;
+}
+
+.navbar-expand-md .navbar-nav .dropdown-menu {
+    border-top: 3px solid #333;
+}
+
+.s {
+    background: #fff;
+}
+
+.dropdown-item:hover {
+    background-color: #DC7633;
+    color: #fff;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+nav {
+    -webkit-transition: padding-top .3s, padding-bottom .3s;
+    -moz-transition: padding-top .3s, padding-bottom .3s;
+    transition: padding-top .3s, padding-bottom .3s;
+    border: none;
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.1);
+}
+
+.w3hubs {
+    top: 0;
+    right: 0;
+    left: 0;z-index: 1030;
+    position: fixed;
+    background-color: #104382;
+}
+
+.w3hubs > .container > .navbar-collapse > .navbar-nav > .menu-item >  a {
+    color: rgb(233, 233, 233) !important
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:hover {
+    outline: none;
+    border: none;
+}
+
+.navbar-toggler-icon {
+    background: #333;
+    height: 5px;
+    margin: 5px;
+    display: block;
+
+}
+#w3hubs{
+    padding-top: 900px;
+}
+
+#bannerT {
+    background-image: url("../images/update-banner2.png");
+    background-position: center;
+    background-size: 100% auto;
+    height: 500px;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.footer-text ul li a, .footer-text span {
+    font-size: 13px !important;
+}
+
+.footer-text ul li, .footer-text span {
+    width: 100%;
+    display: block;
+    margin-top: 0.71em;
+    color: rgba(255,255,255,0.5);
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    padding-left: 1.35em;
+    position: relative;
+    padding-bottom: 0.7em;
+    box-sizing: border-box;
+}
+
+.footer-text ul li.menu-item-type-custom::before {
+    position: absolute;
+    top: 3px;
+    font-size: 0.8667em;
+    left: 0;
+    content: '\f105';
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+}
+
+.fb::after {
+    position: absolute;
+    top: 3px;
+    font-size: 0.8667em;
+    left: 0;
+    content: '\f082'!important;
+    font-family: 'Font Awesome 5 Brands';
+    font-weight: 900;
+}
+
+.tw::after {
+    position: absolute;
+    top: 3px;
+    font-size: 0.8667em;
+    left: 0;
+    content: '\f081'!important;
+    font-family: 'Font Awesome 5 Brands';
+    font-weight: 900;
+}
+
+.yt::after {
+    position: absolute;
+    top: 3px;
+    font-size: 0.8667em;
+    left: 0;
+    content: '\f167'!important;
+    font-family: 'Font Awesome 5 Brands';
+    font-weight: 900;
+}
+
+.ig::after {
+    position: absolute;
+    top: 3px;
+    font-size: 0.8667em;
+    left: 0;
+    content: '\f16d'!important;
+    font-family: 'Font Awesome 5 Brands';
+    font-weight: 900;
+}
+
+.pt::after {
+    position: absolute;
+    top: 3px;
+    font-size: 0.8667em;
+    left: 0;
+    content: '\f0d3'!important;
+    font-family: 'Font Awesome 5 Brands';
+    font-weight: 900;
+}
+
+.ph-icon::before {
+    position: absolute;
+    top: 3px;
+    font-size: 0.8667em;
+    left: 0;
+    content: '\f879'!important;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+}
+
+.email-icon::before {
+    position: absolute;
+    top: 3px;
+    font-size: 0.8667em;
+    left: 0;
+    content: '\f0e0'!important;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+}
+
+.address-icon::before {
+    position: absolute;
+    top: 3px;
+    font-size: 0.8667em;
+    left: 0;
+    content: '\f5a0'!important;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+}
+
+.web-icon::before {
+    position: absolute;
+    top: 3px;
+    font-size: 0.8667em;
+    left: 0;
+    content: '\f0ac'!important;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+}
+
+.textwidget > ul > li > a {
+    color: #fff;
+}
+
+/* mobile view */
+
+@media (max-width:500px) {
+    .navbar-nav {
+          color: #fff;
+        z-index: 1;
+        margin-top: 5px;
+    }
+
+    .navbar-nav .nav-item .nav-link {
+        padding: 0.7em 1em !important;
+        font-size: 100%;
+        font-weight: bold;
+    }
+    
+
+}
+
+@media(max-width: 447px){
+    .ml-3, .mx-3 {
+    margin-left: 0rem!important;
+}
+}
+@media(max-width: 464px){
+    .pull-right{
+        float: none;
+
+    }
+    #top ul{
+        text-align: center;
+    }
+}
